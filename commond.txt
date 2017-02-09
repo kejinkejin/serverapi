@@ -1,0 +1,11 @@
+//get data by parameters
+http://localhost:1000/item/get?email=1@gmail.com
+
+//add data by parameters
+http://localhost:1000/item/add?details=String
+
+//delete data by parameters
+http://localhost:1000/item/delete?details=String
+
+//update data by parameters
+mongoimport -h ds145379.mlab.com:45379 -d freerecycling -c zips -u kejin -p finalproject2017 --file zips.json
